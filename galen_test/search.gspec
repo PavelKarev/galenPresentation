@@ -1,0 +1,65 @@
+@rule if %{objectName} is visible
+    @if ${isVisible(objectName)}
+    @ruleBody
+
+
+
+@objects
+    search_panel            #search-bar
+    search_panel_input      #search-bar input[type='text']
+    search_panel_button     #search-bar a
+
+    header                  .header
+    header_icon             .header__icon
+    header_caption          .header__caption
+    header_username         .header__username
+
+    banner       .banner
+    menu         .menu
+
+= Main section =
+    @on desktop
+        menu:
+            height 40 px
+
+    @on mobile
+        menu:
+            height 300 px
+
+    | if banner is visible
+        banner:
+            width 400px 
+            height 200px 
+
+
+= Header section =
+    = Icons and text =
+        header_icon:
+            inside header 10px top left 
+
+        header_caption:
+            text is "Greetings!"
+
+    = User section =
+            header_username:
+                inside header 10px top right 
+
+
+= Search =
+    @on desktop
+        search_panel:
+            height 150 px
+
+        search_panel_input:
+            height 45 to 48px 
+
+    @on tablet
+        search_panel:
+            height 100 px            
+
+        search_panel_input:
+            height 45 to 48px 
+
+    @on mobile
+        search_panel:
+            height 50 px
