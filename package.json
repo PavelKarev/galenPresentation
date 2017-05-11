@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "selenium_start": "cd selenium && java -jar selenium-server-standalone-3.4.0.jar",
-    "test": "cd galen_test && galen test start_test.test --htmlreport reports --parallel-tests 4 && open reports/report.html"
+    "selenium": "cd selenium && java -jar selenium-server-standalone-3.4.0.jar",
+    "test": "cd galen_test && galen test start_test.test --htmlreport reports --parallel-tests 6 && open reports/report.html"
   },
   "author": "P.Karev",
   "license": "ISC",
