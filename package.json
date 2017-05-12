@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "npm i && webpack-dev-server",
     "selenium": "cd selenium && java -jar selenium-server-standalone-3.4.0.jar",
     "test": "cd galen_test && galen test start_test.test --htmlreport reports --parallel-tests 6 && open reports/report.html"
   },

@@ -1,10 +1,10 @@
 @@ set
-    gridUrl http://localhost:4444/wd/hub
+    gridUrl http://0.0.0.0:4444/wd/hub
 
 @@ parameterized
-    | browser     |
-    | firefox     |
-    | chrome      |
+    | browser        |
+    | firefox        |
+    | chrome         |
 
 @@ parameterized
     | deviceName | tags      | size     |

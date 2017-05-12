@@ -1,2 +1,5 @@
 /node_modules
 /galen_test/reports
+/selenium/*.log
+
+*.log
