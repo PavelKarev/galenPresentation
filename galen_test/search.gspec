@@ -1,7 +1,6 @@
 @rule if %{objectName} is visible
     @if ${isVisible(objectName)}
-    @ruleBody
-
+      @ruleBody
 
 
 @objects
