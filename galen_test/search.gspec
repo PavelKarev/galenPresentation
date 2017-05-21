@@ -1,6 +1,6 @@
 @rule if %{objectName} is visible
     @if ${isVisible(objectName)}
-      @ruleBody
+        @ruleBody
 
 
 @objects
@@ -42,7 +42,6 @@
     = User section =
             header_username:
                 inside header 10px top right 
-
 
 = Search =
     @on desktop

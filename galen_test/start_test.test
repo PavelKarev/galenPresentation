@@ -3,8 +3,7 @@
 
 @@ parameterized
     | browser        |
-    | firefox        |
-    | chrome         |
+    | phantomjs      |
 
 @@ parameterized
     | deviceName | tags      | size     |
