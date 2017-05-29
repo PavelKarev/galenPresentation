@@ -3,7 +3,8 @@
 
 @@ parameterized
     | browser        |
-    | phantomjs      |
+    | firefox        |
+    | chrome         |
 
 @@ parameterized
     | deviceName | tags      | size     |
@@ -13,4 +14,4 @@
 
 Home page on ${deviceName} device in ${browser} browser
     selenium grid ${gridUrl} --browser "${browser}" --page http://localhost:8080 --size ${size}
-        check search.gspec --include "${tags}"
+        check galen_test/search.gspec --include "${tags}"
