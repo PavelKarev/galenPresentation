@@ -2,7 +2,6 @@
     @if ${isVisible(objectName)}
         @ruleBody
 
-
 @objects
     search_panel            #search-bar
     search_panel_input      #search-bar input[type='text']
