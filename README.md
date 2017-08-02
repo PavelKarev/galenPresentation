@@ -47,3 +47,8 @@ http://qoo.by/2oIR
 http://qoo.by/2oIV
 http://qoo.by/2oIW
 http://qoo.by/2oIX
+
+
+## Плагины для поддержки синтаксиса в редакторах
+http://qoo.by/2oJ0
+http://qoo.by/2oJ1
